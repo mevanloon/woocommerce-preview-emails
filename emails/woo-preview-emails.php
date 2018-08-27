@@ -32,7 +32,7 @@ function wordimpress_preview_woo_emails() {
 			'post_type' => 'shop_order',
 			'posts_per_page' => -1,
 			'order' => 'ASC',
-			'post_status' => array( 'wc-processing', 'wc-pending' )
+			'post_status' => array( 'wc-processing', 'wc-pending', 'wc-completed' )
 		) );
 
 		$order_drop_down_array = array();
